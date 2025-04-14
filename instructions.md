@@ -63,3 +63,9 @@ Once both the server and the client are running, you can access the dashboard by
 *   Make sure you start the server before starting the client.
 *   If you make changes to the backend code, the server will automatically reload because of the `--reload` flag.
 *   If you make changes to the frontend code, the browser will automatically reload.
+
+
+Render:
+Client: https://prompt-sentinel.onrender.com
+Server: https://ps-server-lihl.onrender.com
+DB (Internal): postgresql://reports_o1oj_user:ZzR6nOYqU8xoz6YIdfT55ESoXoFgui4f@dpg-cvu2cgruibrs73eho9ug-a/reports_o1oj
