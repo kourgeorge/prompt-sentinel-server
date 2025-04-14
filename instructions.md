@@ -27,8 +27,6 @@ bash pip install -r requirements.txt
 bash uvicorn main:app --reload
 
 
-
-
 *   This will start the server on `http://localhost:8000`. The `--reload` flag enables automatic reloading when you make changes to the code.
 
 4. **Setting up the environment variable**
@@ -65,7 +63,11 @@ Once both the server and the client are running, you can access the dashboard by
 *   If you make changes to the frontend code, the browser will automatically reload.
 
 
-Render:
+# Infra Render.com:
 Client: https://prompt-sentinel.onrender.com
 Server: https://ps-server-lihl.onrender.com
 DB (Internal): postgresql://reports_o1oj_user:ZzR6nOYqU8xoz6YIdfT55ESoXoFgui4f@dpg-cvu2cgruibrs73eho9ug-a/reports_o1oj
+
+Configuring Render ps-server
+add variable varibale for the db connection string.
+export DATABASE_TYPE=postgresql; uvicorn main:app --host 0.0.0.0 --port $PORT
